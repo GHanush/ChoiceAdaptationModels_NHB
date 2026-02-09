@@ -51,11 +51,11 @@ for x = 1:length(subj)
     % Storing and saving the output
     learning_dist_domval.subject(subj).sample = sample;
     sample = []; 
-    delete('tmp.mat');
 
 
 end
 save ('learning_dist_domval.mat','learning_dist_domval')
 est =  learning_dist_domval;
+
 
 end
