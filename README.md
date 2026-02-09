@@ -7,9 +7,9 @@ The scripts process and fit data to models IMA, DIST, OPT, and RL. Both data and
 ## Repository Structure
 Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participants in Experiment 1 and a subfolder 'domval' containing scripts to fit models to choices of any one participant.
 
-Folder 'Exp2' contains file 'data_gain.mat' containing data of all participants in Experiment 2 and a subfolder 'gainpar' containing scripts to fit models to choices of any one participant. The data of individual participants have the following IDs: 25,27,29,30,31,32,33,34,35,36,37,38,39,40,42,43,45,46,47,48,49,50,52,53,54,55,56,57,58,61,62
+Folder 'Exp2' contains file 'data_gain.mat' containing data of all participants in Experiment 2 and a subfolder 'gainpar' containing scripts to fit models to choices of any one participant.
 
-Folder 'Exp3' contains file 'data_loss.mat' containing data of all participants in Experiment 3 and a subfolder 'losspar' containing scripts to fit models to choices of any one participant. The data of individual participants have the following IDs: 69,70,71,72,73,75,76,77,78,79,80,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,99,100,101
+Folder 'Exp3' contains file 'data_loss.mat' containing data of all participants in Experiment 3 and a subfolder 'losspar' containing scripts to fit models to choices of any one participant. 
 
 ## Instructions to use
 1. Download folder 'ChoiceAdaptationModels_NHB'.  
