@@ -1,13 +1,13 @@
 function est = ima(isubject)
 
 % Free parameters value intervals
-vt_int = [0,0.5];   % volatility
-alpha_int = [0,1];  % RL rate  
-fy_int = [0,1];     % proposed vs. rl value
-w_int = [0,1];      % belief vs. norm value    
-ps_int = [0,0.1];   % lapse rate  
-beta_int = [0,70];  % inverse temperature
-qM_int = [0.5,1];   % reward frequency of the best
+vt_int    = [0,0.5]; % volatility
+alpha_int = [0,1];   % RL rate  
+fy_int    = [0,1];   % proposed vs. rl value
+w_int     = [0,1];   % belief vs. norm value    
+ps_int    = [0,0.1]; % lapse rate  
+beta_int  = [0,70];  % inverse temperature
+qM_int    = [0.5,1]; % reward frequency of the best
 
 % Lower and upper bounds of free parameters in each of four condition
 pars_lower = [vt_int(1),alpha_int(1),fy_int(1),w_int(1),ps_int(1),beta_int(1),qM_int(1)];
@@ -58,3 +58,4 @@ end
 
 
 end
+
