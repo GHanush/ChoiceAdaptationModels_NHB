@@ -37,7 +37,7 @@ for x = 1:length(subj)
  
     % Optimizing and storing
     parfor smp = 1:size(sample,1)  
-        [bestP,bestLLH,exitflag] = fmincon(@ModelLLH_dist_domval_v1,parint(smp,:),Aineq,bineq,Aeq,beq,lower,upper,nonlcon,options);
+        [bestP,bestLLH,exitflag] = fmincon(@ModelLLH_dist_domval,parint(smp,:),Aineq,bineq,Aeq,beq,lower,upper,nonlcon,options);
         sample(smp,:) = [bestP,bestLLH,exitflag];
     end
 
@@ -59,3 +59,4 @@ est =  learning_dist_domval;
 
 
 end
+
