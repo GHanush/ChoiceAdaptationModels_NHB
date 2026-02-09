@@ -47,10 +47,10 @@ for x = 1:length(subj)
     % Storing and saving the output
     learning_opt_domval.subject(subj).sample = sample;
     sample = []; 
-    delete('tmp.mat');
 end
 
 save ('learning_opt_domval.mat','learning_opt_domval')
 est =  learning_opt_domval;
+
 
 end
