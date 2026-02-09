@@ -14,5 +14,5 @@ Folder 'Exp3' contains file 'data_loss.mat' containing data of all participants 
 ## Instructions to use
 1. Download folder 'ChoiceAdaptationModels_NHB'.  
 2. Open MATLAB.  
-3. Navigate to subfolder 'Exp1', 'Exp2', or 'Exp3' to run model fitting to data of Experiment 1,2, or 3, respectively 
-4. Follow instructions to use in file 'README.md' in the chosen subfolder 'Exp1', 'Exp2', or 'Exp3'. 
+3. Navigate to subfolder 'Exp1', 'Exp2', or 'Exp3' to run model fitting to data of Experiment 1,2, or 3, respectively.
+4. Follow instructions in file 'README.md' in chosen subfolder 'Exp1', 'Exp2', or 'Exp3'. 
