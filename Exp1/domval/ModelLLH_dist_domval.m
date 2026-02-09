@@ -56,15 +56,15 @@ for k = 1:length(tmp.block(b).episode) % loop over episodes
             vPR(1) = Figure(1).block(b).session(k).trial(t);
             vPR(2) = Figure(2).block(b).session(k).trial(t);
             
-           % update initial probabilities after seeing proposed rewards
+           % update initial state beliefs after seeing proposed rewards
             B(1) = exp(bias*(vPR(1) - vPR(2))) * sB(1);
             B(2) = exp(bias*(vPR(2) - vPR(1))) * sB(2);
-           % normalize probabilities
+           % normalize state beliefs
             nB(1) = B(1)/(B(1) + B(2));
             nB(2) = 1 - nB(1);
          
-           % compute reward probabilities by marginalizing over
-           % probabilities
+           % compute reward probabilities by marginalizing over state beliefs
+           
             P(1) = par(4)*nB(1) + (1 - par(4))*nB(2);
             P(2) = (1 - par(4))*nB(1) + par(4)*nB(2);
 
@@ -139,4 +139,5 @@ bias = 0;          % reward and reward frequency inter-relation bias
     
 end 
 LLH = -LLH;
+
 end
