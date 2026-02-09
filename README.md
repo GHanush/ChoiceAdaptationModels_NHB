@@ -21,3 +21,5 @@ Folder 'Exp3' contains file 'data_loss.mat' containing data of all participants 
 This repository is intended for reviewers.
 All scripts are compatible with MATLAB 2021a and later versions.
 No additional licenses or toolboxes are required beyond standard MATLAB functions.
+No non-standard hardware is required. 
+
