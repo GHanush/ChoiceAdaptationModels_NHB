@@ -116,14 +116,14 @@ for k = 1:length(tmp.block(b).episode) % loop over episodes
                 LLH = LLH;
             else
 
-            % update probabilities for the current trial
+            % update state beliefs for the current trial
             I = x*(2-a)+(1-x)*(a-1);
             tB(1) = (par(4)^I)*((1-par(4))^(1 - I))*P(1); 
             tB(2) = ((1-par(4))^I)*(par(4)^(1 - I))*P(2);
             LLH = LLH + log(Prob(a));
             end
             
-            % form probabilities for the next trial
+            % form state beliefs for the next trial
             sB(1) = (1 - par(1))*tB(1) + par(1)*tB(2);
             sB(2) = par(1)*tB(1) + (1 - par(1))*tB(2);
                       
@@ -141,3 +141,4 @@ end
 LLH = -LLH;
 
 end
+
