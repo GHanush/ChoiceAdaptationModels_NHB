@@ -50,7 +50,6 @@ for x = 1:length(subj)
         % Storing and saving the output
         learning_mixfull_domval.subject(subj).sample = sample;        
         sample = []; 
-        delete('tmp.mat');
 end
 
         save ('learning_mixfull_domval.mat','learning_mixfull_domval')  
@@ -58,5 +57,6 @@ end
 
 
 end
+
 
 
