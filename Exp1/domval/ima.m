@@ -43,7 +43,7 @@ for x = 1:length(subj)
         % Second round of optimization (starting from optimized values) and storing 
         parint = sample(:,1:end-2);
         parfor smp = 1:size(sample,1)                  
-            [bestP,bestLLH,exitflag] = fmincon(@ModelLLH_mixW_domval,parint(smp,:),Aineq,bineq,Aeq,beq,lower,upper,nonlcon,options);           
+            [bestP,bestLLH,exitflag] = fmincon(@ModelLLH_mixfull_domval,parint(smp,:),Aineq,bineq,Aeq,beq,lower,upper,nonlcon,options);           
             sample(smp,:) = [bestP,bestLLH,exitflag];         
         end    
         
@@ -57,6 +57,7 @@ end
 
 
 end
+
 
 
 
