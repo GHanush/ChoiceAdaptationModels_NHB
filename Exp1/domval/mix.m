@@ -1,4 +1,4 @@
-function est = mix(isubject)
+function est = ima(isubject)
 
 % Free parameters value intervals
 vt_int = [0,0.5];   % volatility
@@ -55,5 +55,6 @@ end
 
         save ('learning_mixfull_domval.mat','learning_mixfull_domval')  
         est =  learning_mixfull_domval;
+
 
 end
