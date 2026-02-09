@@ -9,4 +9,4 @@ Open file 'launch_task.mat'
 Follow steps in file 'launch_task'
 
 ## Run time
-The running time per model per participant is approximately X minutes.
+The running time per model per participant is approximately X minutes on a "normal" desktop computer.
