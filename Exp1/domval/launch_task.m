@@ -1,7 +1,7 @@
 function launch_task
 % Step 1. change the value of variable 'isubject' to ID of any participant in Experiment 1
 % Step 2. choose models to run the fitting by commenting out unchosen models
-% Step 3. save changes in steps 1 and 2
+% Step 3. save changes
 % Step 4. type 'launch_task' in the command window
 
 
@@ -18,5 +18,6 @@ tmp = data.subject(isubject);
 save('tmp.mat','tmp')
 
 end
+
 
 
