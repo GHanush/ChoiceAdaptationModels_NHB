@@ -7,3 +7,6 @@ Folder 'domval' contains scripts to fit models IMA, DIST, OPT, RL to data of any
 ## Instructions to use
 Open file 'launch_task.mat'
 Follow steps in file 'launch_task'
+
+## Run time
+The running time per model per participant is approximately X minutes.
