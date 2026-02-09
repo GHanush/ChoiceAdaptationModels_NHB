@@ -1,6 +1,6 @@
 function [LLH] = ModelLLH_dist_domval(param)
 LLH = 0;
-sB = [0.5, 0.5]; % initialize probabilities
+sB = [0.5, 0.5]; % initialize state beliefs
 r = 0;             % initialize zero-step reward (no impact)
 x = 0;             % initalize zero-step  outcome (no impact)
 bias = 0;          % reward and reward frequency inter-relation bias
@@ -131,7 +131,7 @@ for k = 1:length(tmp.block(b).episode) % loop over episodes
 end
 
 % Starting a new block
-sB = [0.5, 0.5];   % initialize probabilities
+sB = [0.5, 0.5];   % initialize state beliefs
 r = 0;             % initialize zero-step reward (no impact)
 x = 0;             % initalize zero-step outcome (no impact)
 bias = 0;          % reward and reward frequency inter-relation bias
@@ -141,4 +141,5 @@ end
 LLH = -LLH;
 
 end
+
 
