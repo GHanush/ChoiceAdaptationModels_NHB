@@ -34,7 +34,7 @@ else
 end
 
 
-for k = 1:length(tmp.block(b).episode) % loop over epidoes
+for k = 1:length(tmp.block(b).episode) % loop over episodes
         % Retreiving the proposed outcome
         Figure(1).block(b).session(k).trial(1,:) = bank - cf*tmp.block(b).episode(k).sq_proposed;
         Figure(2).block(b).session(k).trial(1,:) = bank - cf*tmp.block(b).episode(k).rh_proposed;
@@ -129,4 +129,5 @@ bias = 0;          % reward and reward frequency inter-relation bias
    
 end
 LLH = -LLH;
+
 end
