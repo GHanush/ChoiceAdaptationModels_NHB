@@ -25,5 +25,8 @@ Ensure the folder structure is unchanged.
   - Statistics and Machine Learning Toolbox
   - Optimization Toolbox
   - Parallel Computing Toolbox
+ 
+## Installation time
+The installation time is maximum 5 minutes on a "normal desktop computer". 
 
 
