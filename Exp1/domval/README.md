@@ -11,6 +11,8 @@ Folder 'domval' contains scripts to fit models IMA, DIST, OPT, RL to data of any
 4. Save the changes
 5. Type 'launch_task' in the command window
 
+## Output
+The program will output one file per model fitting each contaning 10 sets of estimated values of a model's free parameters as well as negative log-likelihoods of each set. Note that the number of sets here are chosen for demostratation purposes only. Methods in the manuscript describe 3000 sets per model. 
 
 ## Run time
 The running time per model per participant is approximately 10 minutes on a "normal" desktop computer.
