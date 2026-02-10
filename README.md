@@ -5,7 +5,7 @@ This repository contains MATLAB scripts used in the study "Human Decision Making
 The scripts process and fit data to models IMA, DIST, OPT, and RL. Both data and scripts are organized per experiment.
 
 ## Repository Structure
-Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participants in Experiment 1 and subfolder 'domval' containing scripts to fit models to choices of any one participant.
+Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participants in Experiment 1 and subfolder 'domval' containing scripts to fit models to choices of any one participant. Folder 'Exp1' also contains file 'README.md'.
 
 
 ## Instructions to use
