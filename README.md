@@ -15,7 +15,7 @@ Ensure the folder structure is unchanged.
 3. Open MATLAB.  
 4. Navigate to subfolder 'Exp1' to run model fitting to data of Experiment 1.
 5. Navigate to subfolder 'domval' to run model fitting to data of any one participant in Experiment 1.
-6. Follow instructions in file 'README.md' in chosen subfolder 'Exp1'.
+6. Follow instructions in file 'README.md' in subfolder 'domval'.
 
 
 ## Software Requirements
