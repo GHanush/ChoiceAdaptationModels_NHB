@@ -1,6 +1,6 @@
 function [parint] = slice_sampling(x0,lower,upper)
 
-sample_num = 1000; % 100000, 3000
+sample_num = 10; % 100000, 3000
 paralt = zeros(sample_num,length(lower)); % alternative parameter sets' stock
 
 parfor i = 1:length(lower)
@@ -11,6 +11,7 @@ end
 parint = paralt;
 
 end
+
 
 
 
