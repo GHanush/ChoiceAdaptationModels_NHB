@@ -10,7 +10,7 @@ Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participan
 
 ## Instructions to use
 1. Download folder 'ChoiceAdaptationModels_NHB'.
-The script automatically loads the data from '.../data_dom2val.mat' using relative paths.  
+The script automatically loads the data from '.../data_dom2val.mat' using relative paths.
 Ensure the folder structure is unchanged. 
 3. Open MATLAB.  
 4. Navigate to subfolder 'Exp1' to run model fitting to data of Experiment 1.
