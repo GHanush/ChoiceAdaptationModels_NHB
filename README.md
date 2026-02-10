@@ -1,8 +1,9 @@
 # ChoiceAdaptationModels_NHB
 
 ## Overview
-This repository contains MATLAB scripts used in the study "Human Decision Making beyond Prospect Theory" submitted to Nature Human Behavior.  
+This repository contains MATLAB scripts to demonstrate model fitting in the study "Human Decision Making beyond Prospect Theory" submitted to Nature Human Behavior.  
 The scripts process and fit data to models IMA, DIST, OPT, and RL. Both data and scripts are organized per experiment.
+The scripts cannot be used for replication of results in the manuscipt. 
 
 ## Repository Structure
 Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participants in Experiment 1 and subfolder 'domval' containing scripts to fit models to choices of any one participant. 
