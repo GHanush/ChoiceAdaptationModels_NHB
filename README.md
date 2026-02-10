@@ -30,7 +30,7 @@ Ensure the folder structure is unchanged.
 Download of provided folder 'ChoiceAdaptationModels_NHB' is maximum 5 minutes on a "normal" desktop computer. 
 
 
-## Licence 
+## License 
 
 The MIT License (MIT)
 Copyright (c) 2026 Ghambaryan Anush
