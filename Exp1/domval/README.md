@@ -13,7 +13,7 @@ Folder 'domval' contains scripts to fit models IMA, DIST, OPT, RL to data of any
 
 
 ## Run time
-The running time per model per participant is approximately 15 minutes on a "normal" desktop computer.
+The running time per model per participant is approximately 10 minutes on a "normal" desktop computer.
 
 ## Note
 The optimization parameters are extremely reduced (compared to Methods provided in the manuscript) to limit the running time on a "normal" desktop computer. 
