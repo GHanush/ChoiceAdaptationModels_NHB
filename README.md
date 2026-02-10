@@ -2,8 +2,8 @@
 
 ## Overview
 This repository contains MATLAB scripts and data files to demonstrate model fitting in the study "Human Decision Making beyond Prospect Theory" by A. Ghambaryan, B. Gutkin, V. Klucharev and E. Koechlin 
-The scripts process and fit data to models IMA, DIST, OPT, and RL. Both data and scripts are organized per experiment.
-The scripts cannot be used for replication of results in the manuscipt. 
+
+The scripts process and fit data to models IMA, DIST, OPT, and RL. Data and scripts are provided for for Exp1. Scripts for Exps 2 and 3 are virtually identical. 
 
 ## Repository Structure
 Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participants in Experiment 1 and subfolder 'domval' containing scripts to fit models to choices of any one participant. 
