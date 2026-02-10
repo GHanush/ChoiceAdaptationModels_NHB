@@ -1,6 +1,6 @@
-# ChoiceAdaptationModels_NHB
+# ChoiceAdaptationModels_NHB/Exp1/domval
 
-## Repository Structure
+## Overview
 Folder 'domval' contains scripts to fit models IMA, DIST, OPT, RL to data of any one participant in Experiment 1. Examples of participant IDs: 131, 142, 149, 154, 158, 165, 170, 178
 
 
