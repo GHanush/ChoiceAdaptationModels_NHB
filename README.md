@@ -26,7 +26,7 @@ Ensure the folder structure is unchanged.
   - Optimization Toolbox
   - Parallel Computing Toolbox
  
-## Installation time
-The installation time is maximum 5 minutes on a "normal desktop computer". 
+## Download time
+Download of provided folder 'ChoiceAdaptationModels_NHB' is maximum 5 minutes on a "normal" desktop computer. 
 
 
