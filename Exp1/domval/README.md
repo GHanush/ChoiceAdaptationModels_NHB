@@ -5,7 +5,7 @@ Folder 'domval' contains scripts to fit models IMA, DIST, OPT, RL to data of any
 
 
 ## Instructions to use
-1. Open file 'launch_task.mat'.
+1. Open file 'launch_task.mat'
 2. Change the value of variable 'isubject' to ID of any participant in Experiment 1
 3. Choose models to run the fitting by commenting out unchosen models (for instance, '% dist(isubject)')
 4. Save the changes
