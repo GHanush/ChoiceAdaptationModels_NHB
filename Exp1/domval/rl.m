@@ -28,8 +28,8 @@ for x = 1:length(subj)
     options = optimoptions(@fmincon,'MaxIterations',1000,'MaxFunctionEvaluations',10000);
     Aineq = []; bineq = []; Aeq = [];beq = []; nonlcon = [];
 
-    % Initializing a matrix for storing 1000 optimization outputs
-    sample = zeros(1000,length(lower)+2);
+    % Initializing a matrix for storing 10 optimization outputs
+    sample = zeros(10,length(lower)+2);
 
     % Optimizing and storing
     parfor smp = 1:size(sample,1)
@@ -48,6 +48,7 @@ est =  learning_rl_domval;
 
 
 end
+
 
 
 
