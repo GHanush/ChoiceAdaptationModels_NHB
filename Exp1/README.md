@@ -1,6 +1,6 @@
-# ChoiceAdaptationModels_NHB
+# ChoiceAdaptationModels_NHB/Exp1
 
-## Repository Structure
+## Overview
 Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participants in Experiment 1 and a subfolder 'domval' containing scripts to fit models to choices of any one participant.
 
 
