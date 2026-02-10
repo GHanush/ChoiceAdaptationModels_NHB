@@ -1,7 +1,7 @@
 # ChoiceAdaptationModels_NHB
 
 ## Overview
-This repository contains MATLAB scripts to demonstrate model fitting in the study "Human Decision Making beyond Prospect Theory" submitted to Nature Human Behavior.  
+This repository contains MATLAB scripts and data files to demonstrate model fitting in the study "Human Decision Making beyond Prospect Theory" by A. Ghambaryan, B. Gutkin, V. Klucharev and E. Koechlin 
 The scripts process and fit data to models IMA, DIST, OPT, and RL. Both data and scripts are organized per experiment.
 The scripts cannot be used for replication of results in the manuscipt. 
 
