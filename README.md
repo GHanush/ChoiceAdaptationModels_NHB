@@ -1,4 +1,4 @@
-# ChoiceAdaptationModels
+# ChoiceAdaptationModels_v2
 
 ## Overview
 This repository contains MATLAB scripts and data files to demonstrate model fitting in the study "Human Decision Making beyond Prospect Theory" by A. Ghambaryan, B. Gutkin, V. Klucharev and E. Koechlin 
@@ -10,7 +10,7 @@ Folder 'Exp1' contains file 'data_dom2val.mat' containing data of all participan
 
 
 ## Instructions to use
-1. Download folder 'ChoiceAdaptationModels'.
+1. Download folder 'ChoiceAdaptationModels_v2'.
 The script automatically loads the data from '.../data_dom2val.mat' using relative paths.
 Ensure the folder structure is unchanged.
 3. Open MATLAB.  
@@ -27,7 +27,7 @@ Ensure the folder structure is unchanged.
   - Parallel Computing Toolbox
  
 ## Download time
-Download of provided folder 'ChoiceAdaptationModels' is maximum 5 minutes on a "normal" desktop computer. 
+Download of provided folder 'ChoiceAdaptationModels_v2' is maximum 5 minutes on a "normal" desktop computer. 
 
 
 ## License 
